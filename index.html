@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phone Shope</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.6.4/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body class="container mx-auto bg-[#0D6EFD0D]">
+    <header>
+        <div class="navbar bg-base-100">
+            <div class="flex-1">
+                <a class="btn btn-ghost normal-case text-xl">PHONES</a>
+            </div>
+           <div class="">
+            <button class="btn bg-blue-600  text-white">Sign up</button>
+           </div>
+        </div>
+    </header>
+    <main>
+        <section class="text-center space-y-3">
+            <h1 class="text-5xl font-bold text-center">Apple Iphone 13 Pro Max</h1>
+            <p class="text-lg">There are many variations of passages of Lorem Ipsum available, but the majority <br>
+                have suffered alteration in some form, by injected humou.</p>
+            <button class="btn bg-[#0D6EFD] text-white">Bye now</button>
+        </section>
+        <section class="">
+            <div class="flex flex-wrap justify-center items-center">
+                <img class="h-80" src="./image/pngwing 1.png" alt="">
+                <img class="h-96" src="./image/pngwing 1.png" alt="">
+                <img class="h-80" src="./image/pngwing 1.png" alt="">
+            </div>
+        </section>
+        <!-- API start -->
+        <section class="mb-10">
+            <h1 class="text-center text-3xl font-bold my-4">Search your phone</h1>
+            <div class="flex justify-center items-center gap-1">
+                <input id="input-field" type="text" placeholder="Type here" class=" bg-gray-200 input input-bordered input-primary w-full max-w-xs" />
+            <button onclick="search()" class="  btn bg-blue-500  text-white  rounded-md " ><i  class="fa-solid fa-magnifying-glass"></i>search</button>
+            </div>
+        </section>
+        <section>
+            <div class="">
+                <div id="div-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                    
+                        
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
